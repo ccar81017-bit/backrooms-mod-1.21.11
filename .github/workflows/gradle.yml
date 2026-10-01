@@ -24,8 +24,7 @@ jobs:
 
     - name: Generate Wrapper and Build
       run: |
-        # Генерируем обертку Gradle 8.11.1, которая требуется для Fabric Loom 1.9
-        gradle wrapper --gradle-version 8.11.1
+        gradle wrapper --gradle-version 8.8
         chmod +x gradlew
         ./gradlew build
 
