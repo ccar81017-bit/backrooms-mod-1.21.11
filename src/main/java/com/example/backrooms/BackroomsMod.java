@@ -10,6 +10,6 @@ public class BackroomsMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.log(org.slf4j.Slf4j.Level.INFO, "Initializing Backrooms Mod!");
+        LOGGER.info("Initializing Backrooms Mod!");
     }
 }
