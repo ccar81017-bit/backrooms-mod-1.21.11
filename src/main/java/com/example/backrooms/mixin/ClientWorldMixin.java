@@ -11,6 +11,6 @@ public class ClientWorldMixin {
 
     @Inject(method = "getSkyDarkness", at = @At("HEAD"), cancellable = true)
     private void onGetSkyDarkness(float tickDelta, CallbackInfoReturnable<Float> cir) {
-        // Ваша логика здесь (если она требуется)
+        // Ваша логика миксина
     }
 }
